@@ -14,6 +14,7 @@
 		14692EE92227893B0050893E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14692EE72227893B0050893E /* LaunchScreen.storyboard */; };
 		14692EF42227893B0050893E /* swiftTestingProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14692EF32227893B0050893E /* swiftTestingProjectTests.swift */; };
 		14692EFF2227893B0050893E /* swiftTestingProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14692EFE2227893B0050893E /* swiftTestingProjectUITests.swift */; };
+		14692F0D2227B7A80050893E /* CalculationTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14692F0C2227B7A80050893E /* CalculationTesting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		14692EFA2227893B0050893E /* swiftTestingProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftTestingProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14692EFE2227893B0050893E /* swiftTestingProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTestingProjectUITests.swift; sourceTree = "<group>"; };
 		14692F002227893B0050893E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14692F0C2227B7A80050893E /* CalculationTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationTesting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				14692EF32227893B0050893E /* swiftTestingProjectTests.swift */,
 				14692EF52227893B0050893E /* Info.plist */,
+				14692F0C2227B7A80050893E /* CalculationTesting.swift */,
 			);
 			path = swiftTestingProjectTests;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14692F0D2227B7A80050893E /* CalculationTesting.swift in Sources */,
 				14692EF42227893B0050893E /* swiftTestingProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK858HPL36;
 				INFOPLIST_FILE = swiftTestingProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK858HPL36;
 				INFOPLIST_FILE = swiftTestingProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,6 +474,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK858HPL36;
 				INFOPLIST_FILE = swiftTestingProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,6 +495,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK858HPL36;
 				INFOPLIST_FILE = swiftTestingProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -507,6 +515,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK858HPL36;
 				INFOPLIST_FILE = swiftTestingProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,6 +535,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK858HPL36;
 				INFOPLIST_FILE = swiftTestingProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,5 +1,5 @@
 //
-//  swiftTestingProjectTests.swift
+//  CalculationTesting.swift
 //  swiftTestingProjectTests
 //
 //  Created by seven on 2019/2/28.
@@ -8,8 +8,7 @@
 
 import XCTest
 @testable import swiftTestingProject
-///comd + u 运行测试， 所有的测试类都会被执行
-class swiftTestingProjectTests: XCTestCase {
+class CalculationTesting: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -32,8 +31,12 @@ class swiftTestingProjectTests: XCTestCase {
     }
     func testAdd() -> () {
         let c = Calculation()
-        let result = c.add(a: 2, b: 3)
-        XCTAssert(result == 5)
+        let result = c.haha(a: 1)
+        XCTAssert(result > 1)
     }
-    
+    func testAlone() -> () {
+        let c = Calculation()
+        let result = c.alone(a: 2)
+        XCTAssert(result > 1)
+    }
 }
